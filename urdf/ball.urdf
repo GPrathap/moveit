@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<robot name="dd_robot">
+  <link name="plato_ball">
+      <visual>
+             <origin xyz="0 0 0" rpy="3.14159 3.14159 0"/>
+             <geometry>
+               <mesh scale="0.09 0.09 0.09" filename="package://iiwa_moveit/urdf/ball_mesh.dae"/>
+             </geometry>
+             <material name="Orange"/>
+      </visual>
+  </link>
+</robot>
+
